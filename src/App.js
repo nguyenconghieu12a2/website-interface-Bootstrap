@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
 
+import "./styles/Header.css";
+import "./styles/App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import AppHeaders from "./components/Header";
+import AppBanner from "./components/Banner";
+import AppProduct from "./components/Product";
+// import AppBooktable from "./components/BookTable";
+import { Container } from "react-bootstrap";
+
+// class App extends Component
 function App() {
+  // render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Container className="bg-dark" fluid>
+        <AppHeaders />
+        <AppBanner />
+        <AppProduct />
+      </Container>
     </div>
   );
 }
+// }
 
 export default App;

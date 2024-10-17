@@ -1,0 +1,31 @@
+.new{
+    color: orange;
+}
+
+.old{
+    text-decoration: line-through;
+}
+
+.card-text{
+    display: inline-block;
+}
+.card .card-notify {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: yellow;
+    padding: 5px 25px;
+    border-width: 5px 0px 0px 0px;
+}
+
+.card .card-notify .notify {
+    font-weight: 700;
+}
+
+/* responsive */
+
+@media (max-width: 977.98px) {
+    .card{
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,101 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar>.container-fluid{
+    margin-left: 90px;
+}
+
+.pizza-house{
+    font-weight: bold;
+}
+
+.banner-title{
+    font-size: 45px;
+}
+.carousel-caption > p{
+    font-size: 25px;
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+}
+
+.d-flex{
+    margin-right: 100px;
+}
+
+.d-flex > input{
+    width: 300px !important;
+}
+
+.our-menu{
+    font-size: 40px;
+    margin-left: 8px;
+}
+.book-table{
+    font-size: 40px;
+}
+
+.new{
+    color: orange;
+    font-weight: bold;
+}
+
+.old{
+    text-decoration: line-through;
+}
+
+.card-text{
+    display: inline-block;
+}
+.card .card-notify {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: yellow;
+    padding: 1px 25px;
+    border-radius: 5px 0 0 0;
+}
+
+.card .card-notify .notify {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.h5{
+    font-size: 27px !important;
+}
+
+.card-text{
+    font-size: 18px;
+}
+
+.btn {
+    width: 16%;   
+}
+
+
+
+.textt{
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+
+.footer{
+    margin-bottom: 100px;
+}
+
+/* responsive */
+
+@media (max-width: 1000px) {
+    .card{
+        margin-bottom: 30px;
+    }
+}
